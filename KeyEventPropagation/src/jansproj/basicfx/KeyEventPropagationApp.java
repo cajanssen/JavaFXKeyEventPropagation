@@ -17,7 +17,6 @@ import javafx.stage.Stage;
 
 public class KeyEventPropagationApp extends Application 
 {
-
 	public KeyEventPropagationApp() 
 	{
 		// TODO Auto-generated constructor stub
@@ -41,7 +40,6 @@ public class KeyEventPropagationApp extends Application
 		TextArea colbText = new TextArea();
 
 		Scene scene = new Scene(root);
-// add menubar
 		MenuBar menubar = new MenuBar();
 		MenuItem mia = new MenuItem("Item A");
 		MenuItem mib = new MenuItem("Item B");
@@ -232,5 +230,4 @@ public class KeyEventPropagationApp extends Application
 	{
 		launch(args);
 	}
-
 }
